@@ -1,0 +1,28 @@
+.katex {
+    font-size: 1.3em !important;
+    line-height: 1.4 !important;
+    padding: 0 4px !important;
+    font-weight: bold !important;
+}
+
+.katex-display {
+    margin: 1em 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+}
+
+/* Make the math symbols more prominent */
+.katex .mord, 
+.katex .mbin,
+.katex .mrel,
+.katex .mopen,
+.katex .mclose {
+    color: #000 !important;
+}
+
+/* Add a subtle background to make equations stand out */
+.katex-html {
+    background-color: #f8f9fa !important;
+    border-radius: 4px !important;
+    padding: 2px 4px !important;
+} 
